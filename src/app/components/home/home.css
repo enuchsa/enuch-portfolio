@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-section {
+    margin-left: 40px;
+}
+
+.home-section .home-text {
+    font-weight: 500;
+    color: var(--dark-black);
+}
+
+.home-section .home-text .hello {
+    font-size: 50px;
+}
+
+.home-section .home-text .span {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: var(--red-wine);
+}
+
+.home-section .home-text .name {
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.home-section .home-text .function {
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.home-section .home-text .function .speciality {
+    color: var(--red-wine);
+}
+
+.home-section .buttons {
+    display: flex;
+}
+
+.home-section .buttons .contact{
+    padding: 15px;
+    margin: 10px;
+
+    color: var(--dark-black);
+    background-color: var(--red-wine);
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-section .buttons .contact:hover {
+    padding: 15px;
+    margin-left: 30px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.home-section .buttons .projects {
+    border: none;
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: var(--dark-black);
+
+    margin-left: 40px;
+}
+
+.home-section .buttons .projects:hover {
+    font-size: 30px;
+    color: var(--red-wine);
+    transition: 0.5s;
+
+}
