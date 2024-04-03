@@ -16,10 +16,10 @@ export default function Experience() {
             alt="logo_esig"
           />
           <div className="content">
-            <p>
+            <p className="ano">
               <span className="red">2021</span> - 2023
             </p>
-            <p>
+            <p className="name">
               <span className="red">Java Developer</span> - Esig Software e
               Consultoria em TI
             </p>
@@ -35,14 +35,14 @@ export default function Experience() {
         <div className="enterprises">
           <img
             className="logo"
-            src="https://media.licdn.com/dms/image/D4D0BAQH5-dJI3aF7iQ/company-logo_200_200/0/1704315722527/esigsoftware_logo?e=1720051200&v=beta&t=w1UZCPmM0IydX0HB1gtCMQfXUY_vKTn4FMU106qhWzA"
+            src="https://github.com/enuchsa/enuch-portfolio/blob/main/public/assets/images/modelar-logo.png?raw=true"
             alt="logo_modelar"
           />
           <div className="content">
-            <p>
+            <p className="ano">
               <span className="red">2023</span> - 2023
             </p>
-            <p>
+            <p className="name">
               <span className="red">Java Developer</span> - Modelar Tecnologia
             </p>
             <p>

@@ -37,6 +37,7 @@
 #experience .experience-content .logo {
     border-radius: 100%;
     padding: 20px;
+    width: 200px;
 }
 
 #experience .experience-content .content {
@@ -55,4 +56,12 @@
 
 #experience .experience-content .content .red {
     color: var(--red-wine);
+}
+
+#experience .experience-content .content .ano {
+    font-size: 13px;
+}
+
+#experience .experience-content .content .name {
+    font-size: 18px;
 }
