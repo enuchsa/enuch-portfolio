@@ -16,7 +16,7 @@
 }
 
 #experiences .title-2 span {
-    color: var(--red-wine);
+    color: var(--secondary-color);
 }
 
 #experiences .experience-content {
@@ -50,7 +50,7 @@
 }
 
 #experiences .experience-content .content .red {
-    color: var(--red-wine);
+    color: var(--secondary-color);
 }
 
 #experiences .experience-content .content .ano {
@@ -59,4 +59,10 @@
 
 #experiences .experience-content .content .name {
     font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .logo-enterprise {
+        display: none;
+    }
 }

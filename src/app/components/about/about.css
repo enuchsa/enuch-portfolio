@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin: 20px;
 }
 
 .about-text .title-1{
@@ -29,7 +30,7 @@
 }
 
 .about-text span {
-    color: var(--red-wine);
+    color: var(--secondary-color);
 }
 
 .about-text p {
@@ -44,7 +45,7 @@
 }
 
 .pic {
-    width: 450px;
+    width: 28.125rem;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -62,4 +63,20 @@
 .social .fa-brands:hover {
     font-size: 70px;
     transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+    .pic-profile {
+        display: none;
+    }
+
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-text {
+        align-items: center;
+    }
 }

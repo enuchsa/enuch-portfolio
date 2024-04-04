@@ -11,7 +11,7 @@ export default function Experience() {
       <section className="experience-content">
         <div className="enterprises">
           <img
-            className="logo"
+            className="logo-enterprise"
             src="https://media.licdn.com/dms/image/D4D0BAQH5-dJI3aF7iQ/company-logo_200_200/0/1704315722527/esigsoftware_logo?e=1720051200&v=beta&t=w1UZCPmM0IydX0HB1gtCMQfXUY_vKTn4FMU106qhWzA"
             alt="logo_esig"
           />
@@ -34,7 +34,7 @@ export default function Experience() {
         </div>
         <div className="enterprises">
           <img
-            className="logo"
+            className="logo-enterprise"
             src="https://github.com/enuchsa/enuch-portfolio/blob/main/public/assets/images/modelar-logo.png?raw=true"
             alt="logo_modelar"
           />
