@@ -2,7 +2,7 @@ import "./experience.css";
 
 export default function Experience() {
   return (
-    <section id="experience">
+    <section id="experiences">
       <p className="title-1">Professional</p>
       <h2 className="title-2">
         {" "}

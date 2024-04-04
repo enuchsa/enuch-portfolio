@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#experience {
+#experiences {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,57 +11,57 @@
     flex-direction: column;
 }
 
-#experience .title-1 {
+#experiences .title-1 {
     font-weight: bold;
 }
 
-#experience .title-2 {
+#experiences .title-2 {
     font-weight: bolder;
     font-size: 50px;
 }
 
-#experience .title-2 span {
+#experiences .title-2 span {
     color: var(--red-wine);
 }
 
-#experience .experience-content {
+#experiences .experience-content {
     width: 80%;
 }
 
-#experience .experience-content .enterprises {
+#experiences .experience-content .enterprises {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#experience .experience-content .logo {
+#experiences .experience-content .logo {
     border-radius: 100%;
     padding: 20px;
     width: 200px;
 }
 
-#experience .experience-content .content {
+#experiences .experience-content .content {
     padding: 40px;
     background-color: #ececec;
 
     border-radius: 10px;
 }
 
-#experience .experience-content .content p {
+#experiences .experience-content .content p {
     margin: 10px;
 
     font-size: 15px;
     font-weight: bold;
 }
 
-#experience .experience-content .content .red {
+#experiences .experience-content .content .red {
     color: var(--red-wine);
 }
 
-#experience .experience-content .content .ano {
+#experiences .experience-content .content .ano {
     font-size: 13px;
 }
 
-#experience .experience-content .content .name {
+#experiences .experience-content .content .name {
     font-size: 18px;
 }

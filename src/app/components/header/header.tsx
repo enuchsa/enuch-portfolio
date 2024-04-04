@@ -1,30 +1,35 @@
+"use client";
+import { useRef, useState } from "react";
 import "./header.css";
 
 export default function Header() {
+  const [menu, setMenu] = useState('list')
+
+  const menuState = () => {
+    if (menu === 'list') {
+      setMenu('list active')
+    } else {
+      setMenu('list')
+    }
+  }
+
   return (
     <nav id="navbar">
-      <div className="logo">
-        <p><span className="initial-logo">E</span>nuch</p>
+      <h1>
+        <span>E</span>nuch
+      </h1>
+      <div className="mobile-menu" onClick={menuState}>
+        <div className="line-1"></div>
+        <div className="line-2"></div>
+        <div className="line-3"></div>
       </div>
-      <div className="list">
-        <ul className="list-menu">
-          <li className="list-item">
-            <a href="#home">Home</a>
-          </li>
-          <li className="list-item">
-            <a href="#about">About me</a>
-          </li>
-          <li className="list-item">
-            <a href="#experience">Experience</a>
-          </li>
-          <li className="list-item">
-            <a href="#projects">Projects</a>
-          </li>
-          <li className="list-item">
-            <a href="#skilss">Skills</a>
-          </li>
-        </ul>
-      </div>
+      <ul className={menu}>
+        <a href="#home"><li>Home</li></a>
+        <a href="#about"><li>About me</li></a>
+        <a href="#experiences"><li>Experiences</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#skills"><li>Skills</li></a>
+      </ul>
     </nav>
   );
 }
