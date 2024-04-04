@@ -3,19 +3,19 @@ import { useRef, useState } from "react";
 import "./header.css";
 
 export default function Header() {
-  const [menu, setMenu] = useState('list')
+  const [menu, setMenu] = useState("list");
 
   const menuState = () => {
-    if (menu === 'list') {
-      setMenu('list active')
+    if (menu === "list") {
+      setMenu("list active");
     } else {
-      setMenu('list')
+      setMenu("list");
     }
-  }
+  };
 
   return (
-    <nav id="navbar">
-      <h1>
+    <header id="header">
+      <h1 className="logo">
         <span>E</span>nuch
       </h1>
       <div className="mobile-menu" onClick={menuState}>
@@ -23,13 +23,23 @@ export default function Header() {
         <div className="line-2"></div>
         <div className="line-3"></div>
       </div>
-      <ul className={menu}>
-        <a href="#home"><li>Home</li></a>
-        <a href="#about"><li>About me</li></a>
-        <a href="#experiences"><li>Experiences</li></a>
-        <a href="#projects"><li>Projects</li></a>
-        <a href="#skills"><li>Skills</li></a>
-      </ul>
-    </nav>
+      <nav className={menu} onClick={menuState}>
+        <a href="#home">
+          Home
+        </a>
+        <a href="#about">
+          About me
+        </a>
+        <a href="#experiences">
+          Experiences
+        </a>
+        <a href="#projects">
+          Projects
+        </a>
+        <a href="#skills">
+          Skills
+        </a>
+      </nav>
+    </header>
   );
 }
