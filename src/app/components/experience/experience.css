@@ -12,7 +12,7 @@
 
 #experiences .title-2 {
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 #experiences .title-2 span {
@@ -20,7 +20,7 @@
 }
 
 #experiences .experience-content {
-    width: 80%;
+    width: 70vw;
 }
 
 #experiences .experience-content .enterprises {
@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-#experiences .experience-content .logo {
+#experiences .experience-content .logo-enterprise {
     border-radius: 100%;
     padding: 20px;
     width: 200px;
@@ -37,8 +37,9 @@
 
 #experiences .experience-content .content {
     padding: 40px;
-    background-color: #ececec;
-
+    width: 600px;
+    margin: 5px;
+    background-color: rgba(224, 215, 215, 0.911);
     border-radius: 10px;
 }
 
@@ -64,5 +65,14 @@
 @media (max-width: 900px) {
     .logo-enterprise {
         display: none;
+    }
+
+    #experiences .title-2 {
+        font-weight: bolder;
+        font-size: 2.125rem;
+    }
+
+    #experiences .experience-content .enterprises {
+        margin: 10px;
     }
 }

@@ -5,7 +5,6 @@ export default function Experience() {
     <section id="experiences">
       <p className="title-1">Professional</p>
       <h2 className="title-2">
-        {" "}
         <span>Work</span> Experience
       </h2>
       <section className="experience-content">
@@ -48,8 +47,9 @@ export default function Experience() {
             <p>
               Stack:{" "}
               <span className="red">
-                Java; Spring Boot; Spring Security; Spring Data; Hibernate; JPA; Thymeleaf; React; Git; BitBucket
-                OracleDB; Javascript; HTML; IntelliJ; Docker; AWS
+                Java; Spring Boot; Spring Security; Spring Data; Hibernate; JPA;
+                Thymeleaf; React; Git; BitBucket OracleDB; Javascript; HTML;
+                IntelliJ; Docker; AWS
               </span>
             </p>
           </div>
