@@ -20,7 +20,7 @@ export default function Navbar() {
             </a>
           </h1>
         </section>
-        <nav className={menu}>
+        <nav className={menu} onClick={toggleMenu}>
           <a className="item-menu" href="#home">
             Home
           </a>
