@@ -80,6 +80,6 @@
 }
 
 #navbar .container .active {
-    transform: translateY(-5%);
+    transform: translateY(0);
     transition: 0.5s;
 }
