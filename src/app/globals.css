@@ -14,7 +14,7 @@
 
 body {
   /* background-color: var(--primary-color); */
-  background-image: url("../../public/assets/images/bg.png");
+  background-image: url("../../public/assets/images/background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
