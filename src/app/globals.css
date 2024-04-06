@@ -1,7 +1,8 @@
 :root {
   --primary-color: rgb(24, 23, 23);
-  --secondary-color: rgb(175, 0, 0);
+  --secondary-color: rgb(223, 200, 0);
   --text-primary-color: rgb(255, 255, 255);
+  --text-secondary-color: rgb(255, 255, 255);
   --bg-second: rgb(49, 49, 49);
 }
 
@@ -27,11 +28,26 @@ a {
 }
 
 .container {
-  padding: 100px 150px;
+  padding: 120px 150px;
 }
 
 .text-color {
   color: var(--text-primary-color);
+}
+
+.sections-header {
+  text-align: center;
+}
+
+.sections-header h3{
+  font-size: 45px;
+  text-shadow: 1px 1px 20px var(--secondary-color);
+}
+
+.sections-header p{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 1085px) {

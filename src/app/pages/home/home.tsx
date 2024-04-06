@@ -7,9 +7,9 @@ export default function Home() {
         <section className="home-text">
           <h2>ENUCH SANTOS</h2>
           <h3><span className="text-color">I AM A</span> SOFTWARE ENGINEER</h3>
-          <span className="span">
+          <p>
             Hellooo! Welcome to my portfolio. Come on, make yourself at home
-          </span>
+          </p>
         </section>
         <section className="image">
           <section className="image-effect"></section>

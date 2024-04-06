@@ -22,12 +22,12 @@
     font-size: 25px;
     font-style: italic;
     color: var(--secondary-color);
-    text-shadow: 3px 3px 15px white;
+    text-shadow: 3px 3px 15px var(--text-primary-color);
 
     margin-bottom: 20px;
 }
 
-#home .container .home-text .span {
+#home .container .home-text p {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }

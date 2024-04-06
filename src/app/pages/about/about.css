@@ -1,0 +1,29 @@
+#about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .about-text {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--text-secondary-color);
+}
+
+#about .about-text section {
+    padding: 20px 0;
+}
+
+@media (max-width: 1080px) {
+    #about .about-text {
+        flex-direction: column;
+    }
+}

@@ -27,8 +27,8 @@
 
 #navbar .container .logo:hover {
     font-weight: bolder;
-    color: rgb(255, 1, 1);
-    text-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
+    color: var(--secondary-color);
+    text-shadow: 0.5px 0.5px 10px var(--text-primary-color);
     transition: 0.5s;
 }
 
@@ -36,7 +36,7 @@
     margin: 0 10px;
 
     font-size: 18px;
-    text-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px 10px var(--text-primary-color);
 }
 
 #navbar .container .menu a:hover{
@@ -44,8 +44,8 @@
 
     font-weight: bolder;
     font-size: 20px;
-    color: rgb(255, 1, 1);
-    text-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
+    color: var(--secondary-color);
+    text-shadow: 0.5px 0.5px 10px var(--text-primary-color);
     
     transition: 0.5s;
 }
@@ -76,8 +76,8 @@
 
     
     #navbar .container .mobile-menu:hover {
-        color: rgb(255, 1, 1);
-        box-shadow: 0.5px 0.5px 20px rgb(255, 255, 255);
+        color: var(--secondary-color);
+        box-shadow: 0.5px 0.5px 20px var(--text-primary-color);
     
         transition: 0.5s;
     }
