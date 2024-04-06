@@ -1,7 +1,8 @@
 :root {
   --primary-color: rgb(24, 23, 23);
   --secondary-color: rgb(175, 0, 0);
-  --text-primary-color: rgb(230, 215, 215);
+  --text-primary-color: rgb(255, 255, 255);
+  --bg-second: rgb(49, 49, 49);
 }
 
 * {
@@ -11,7 +12,11 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background-image: url("../../public/assets/images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   color: var(--text-primary-color);
 }
@@ -25,8 +30,12 @@ a {
   padding: 100px 150px;
 }
 
+.text-color {
+  color: var(--text-primary-color);
+}
+
 @media (max-width: 1085px) {
   .container {
-    padding: 0 30px;
+    padding: 100px 30px;
   }
 }

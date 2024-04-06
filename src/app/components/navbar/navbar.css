@@ -3,14 +3,17 @@
     justify-content: space-between;
     align-items: center;
 
-    position: fixed;
+    /* position: fixed;
     width: 100%;
     top: 0;
-    right: 0;
+    right: 0; */
 
     font-weight: bold;
 
     padding-top: 30px;
+    padding-bottom: 30px;
+
+    /* background-color: var(--primary-color); */
 
     /* border-bottom: 1px solid var(--secondary-color); */
 }
@@ -23,8 +26,8 @@
 }
 
 #navbar .container .logo:hover {
-    color: rgb(255, 1, 1);
     font-weight: bolder;
+    color: rgb(255, 1, 1);
     text-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
     transition: 0.5s;
 }
@@ -33,18 +36,18 @@
     margin: 0 10px;
 
     font-size: 18px;
+    text-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
 }
 
 #navbar .container .menu a:hover{
     margin: 0 15px;
 
+    font-weight: bolder;
     font-size: 20px;
+    color: rgb(255, 1, 1);
+    text-shadow: 0.5px 0.5px 10px rgb(255, 255, 255);
     
     transition: 0.5s;
-}
-
-#navbar .container .menu a:hover{
-    color: var(--secondary-color);
 }
 
 #navbar .container .mobile-menu {
@@ -63,11 +66,20 @@
         align-items: center;
         justify-content: space-around;
         transform: translateY(-110%);
+        background-color: var(--primary-color);
     }
 
     #navbar .container .mobile-menu {
         display: block;
         cursor: pointer;
+    }
+
+    
+    #navbar .container .mobile-menu:hover {
+        color: rgb(255, 1, 1);
+        box-shadow: 0.5px 0.5px 20px rgb(255, 255, 255);
+    
+        transition: 0.5s;
     }
 
     #navbar .container .mobile-menu section {

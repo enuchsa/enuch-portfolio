@@ -16,7 +16,7 @@ export default function Navbar() {
         <section className="logo-container">
           <h1>
             <a href="#home" className="logo">
-              Enuch
+              <span className="text-color">E</span>nuch
             </a>
           </h1>
         </section>
