@@ -12,18 +12,26 @@
     justify-content: space-between;
     padding: 100px 0;
 
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
     color: var(--text-secondary-color);
 }
 
 #about .about-text section {
-    padding: 20px 0;
+    padding: 20px 5px;
+    margin: 0 5px;
+
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px var(--text-secondary-color);
 }
 
 @media (max-width: 1080px) {
     #about .about-text {
         flex-direction: column;
+    }
+
+    #about .about-text section{
+        margin: 5px 0;
     }
 }

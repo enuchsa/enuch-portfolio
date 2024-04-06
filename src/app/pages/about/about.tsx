@@ -6,7 +6,7 @@ export default function About() {
       <section className="container">
         <header className="sections-header">
           <h3>About me</h3>
-          <p>I am a lover of tecnology and sciences</p>
+          <p>I am a lover of tecnology and science</p>
         </header>
         <section className="about-text">
           <section className="cover-letter">
