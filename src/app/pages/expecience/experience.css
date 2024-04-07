@@ -1,0 +1,73 @@
+#experiences .container .timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px 0;
+}
+
+#experiences .container .timeline .item {
+    width: 900px;
+    display: flex;
+    
+    margin: 20px 0;
+}
+
+#experiences .container .timeline .item.right {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#experiences .container .timeline .item.left {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#experiences .container .timeline .item .logo {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    margin: 0 20px;
+    background-image: url("../../../../public/assets/images/modelar-logo.png");
+    border-radius: 100%;
+}
+
+#experiences .container .timeline .item header {
+    width: 490px;
+    padding: 20px 20px;
+    margin: 5px 0;
+
+    background-color: rgba(3, 0, 29, 0.589);
+    border-radius: 15px;
+}
+
+#experiences .container .timeline .item .date {
+    padding: 10px;
+    margin: 0 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--secondary-color);
+}
+
+@media (max-width: 1080px) {
+    #experiences .container .timeline .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    #experiences .container .timeline .item {
+        width: 100%;
+    }
+
+    #experiences .container .timeline .item .logo {
+        display: none;
+    }
+}
+
+
+
+
+

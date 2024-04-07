@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/navbar";
 import About from "./pages/about/about";
+import Experience from "./pages/expecience/experience";
 import Home from "./pages/home/home";
 
 export default function index() {
@@ -8,6 +9,7 @@ export default function index() {
       <Navbar />
       <Home />
       <About />
+      <Experience />
     </main>
   );
 }
