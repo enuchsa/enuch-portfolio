@@ -1,0 +1,61 @@
+#education .container .education-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px 0;
+}
+
+#education .container .education-content .item {
+    width: 80%;
+    padding: 15px 0;
+    background-color: rgba(3, 0, 29, 0.589);
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+#education .container .education-content .logo {
+    width: 100px;
+    height: 100px;
+
+    margin: 10px 0;
+
+    background-image: url("../../../../public/assets/images/ufrn.jpeg");
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 100%;
+}
+
+#education .container .education-content .logo:hover {
+    width: 120px;
+    height: 120px;
+
+    transition: 0.5s;
+}
+
+#education .container .education-content .item h4 {
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+#education .container .education-content .item h4:hover {
+    font-size: 18px;
+}
+
+#education .container .education-content .item h5 {
+    font-size: 20px;
+}
+
+#education .container .education-content .item p {
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1080px) {
+    #education .container .education-content .item {
+        width: 100%;
+    }
+}
