@@ -11,7 +11,7 @@
 }
 
 #about .about-text section {
-    padding: 20px 5px;
+    padding: 20px 15px;
     margin: 0 5px;
 
     border: 1px solid var(--secondary-color);
