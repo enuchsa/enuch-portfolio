@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/navbar";
 import About from "./pages/about/about";
+import Certificate from "./pages/certificate/certificate";
 import Education from "./pages/education/education";
 import Experience from "./pages/expecience/experience";
 import Home from "./pages/home/home";
@@ -12,6 +13,7 @@ export default function index() {
       <About />
       <Experience />
       <Education />
+      <Certificate />
     </main>
   );
 }
