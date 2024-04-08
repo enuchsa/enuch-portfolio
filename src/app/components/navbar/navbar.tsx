@@ -36,6 +36,9 @@ export default function Navbar() {
           <a className="item-menu" href="#certificates">
             Certificates
           </a>
+          <a className="item-menu" href="#skills">
+            Skills
+          </a>
           <a className="item-menu" href="#projects">
             Projects
           </a>
