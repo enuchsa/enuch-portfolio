@@ -12,10 +12,9 @@
 
     padding-top: 30px;
     padding-bottom: 30px;
+    border: none;
 
-    /* background-color: var(--primary-color); */
-
-    /* border-bottom: 1px solid var(--secondary-color); */
+    background-image: url("../../../../public/assets/images/nav-bg.png");
 }
 
 #navbar .container .logo {

@@ -15,6 +15,18 @@ export default function About() {
               Federal do Rio Grande do Norte 👨‍💻 Java Software Engineer 📚
               Studying AWS and English 🔠 B1 Intermediate English Level ⏳ Two
               years of experience
+              🎓 Graduated in Systems Analysis and Development at Universidade
+              Federal do Rio Grande do Norte 👨‍💻 Java Software Engineer 📚
+              Studying AWS and English 🔠 B1 Intermediate English Level ⏳ Two
+              years of experience
+              🎓 Graduated in Systems Analysis and Development at Universidade
+              Federal do Rio Grande do Norte 👨‍💻 Java Software Engineer 📚
+              Studying AWS and English 🔠 B1 Intermediate English Level ⏳ Two
+              years of experience
+              🎓 Graduated in Systems Analysis and Development at Universidade
+              Federal do Rio Grande do Norte 👨‍💻 Java Software Engineer 📚
+              Studying AWS and English 🔠 B1 Intermediate English Level ⏳ Two
+              years of experience
             </p>
           </section>
           <section className="networks">

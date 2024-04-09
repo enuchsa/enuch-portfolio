@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./navbar.css";
 
 export default function Navbar() {
@@ -27,7 +27,7 @@ export default function Navbar() {
           <a className="item-menu" href="#about">
             About me
           </a>
-          <a className="item-menu" href="#experiences">
+          {/* <a className="item-menu" href="#experiences">
             Experiences
           </a>
           <a className="item-menu" href="#education">
@@ -35,12 +35,12 @@ export default function Navbar() {
           </a>
           <a className="item-menu" href="#certificates">
             Certificates
+          </a> */}
+          <a className="item-menu" href="#projects">
+            Projects
           </a>
           <a className="item-menu" href="#skills">
             Skills
-          </a>
-          <a className="item-menu" href="#projects">
-            Projects
           </a>
         </nav>
         <section className="mobile-menu" onClick={toggleMenu}>

@@ -1,3 +1,8 @@
+#projects .container {
+    background-image: url("../../../../public/assets/images/bg-project.png");
+    background-repeat: no-repeat;
+}
+
 #projects .content {
     display: grid;
     grid-template-columns: repeat(auto-fill, 500px);
@@ -18,8 +23,9 @@
 
     padding: 10px;
 
-    background-color: rgba(3, 0, 29, 0.589);
-    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px var(--text-secondary-color);
 }
 
 #projects .content .item h4 {
