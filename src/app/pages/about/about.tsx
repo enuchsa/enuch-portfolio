@@ -10,15 +10,20 @@ export default function About() {
         </header>
         <section className="about-text">
           <section className="cover-letter">
-            <p>Sou formado pela Universidade Federal do Rio Grande do Norte (UFRN)</p>
-          </section>
-          <section className="summary">
-            <p>• Graduated in Systems Analysis and Development</p>
-            <p>• Two years of experience</p>
-            <p>• B1 Itermediate english level</p>
             <p>
-              • Studying Cloud Solutions in AWS and Events-Driven Architecture
+              🎓 Graduated in Systems Analysis and Development at Universidade
+              Federal do Rio Grande do Norte 👨‍💻 Java Software Engineer 📚
+              Studying AWS and English 🔠 B1 Intermediate English Level ⏳ Two
+              years of experience
             </p>
+          </section>
+          <section className="networks">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-github"></i>
+            </a>
           </section>
         </section>
       </section>

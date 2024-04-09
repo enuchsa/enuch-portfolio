@@ -10,7 +10,12 @@ export default function Experience() {
         </section>
         <section className="timeline">
           <section className="item right">
-            <section className="logo"></section>
+            <section className="logo">
+              <img
+                src="http://modelartecnologia.com/portal/wp-content/uploads/2020/02/LOGO-MODELAR-MAIOR-2.png"
+                alt=""
+              />
+            </section>
             <header>
               <h3>Software Engineer</h3>
               <h4>Modelar Tecnologia</h4>
@@ -29,7 +34,12 @@ export default function Experience() {
                 Stack: Java, Spring Framework, Hibernate, JPA, Junit, IntelliJ.{" "}
               </p>
             </header>
-            <section className="logo"></section>
+            <section className="logo">
+              <img
+                src="https://media.licdn.com/dms/image/D4D0BAQH5-dJI3aF7iQ/company-logo_200_200/0/1704315722527/esigsoftware_logo?e=1720656000&v=beta&t=OCOoJEbLjpANf1AOXyrDfraqVb3SOQU-9UDGxZ3BN-o"
+                alt="esig"
+              />
+            </section>
           </section>
         </section>
       </section>

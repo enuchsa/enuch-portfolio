@@ -2,7 +2,9 @@
     width: 100%;
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 100px 0;
 
     font-size: 15px;
@@ -10,13 +12,28 @@
     color: var(--text-secondary-color);
 }
 
-#about .about-text section {
+#about .about-text .cover-letter {
+    width: 80%;
+
     padding: 20px 15px;
     margin: 0 5px;
 
     border: 1px solid var(--secondary-color);
     border-radius: 15px;
     box-shadow: 2px 2px 10px var(--text-secondary-color);
+}
+
+#about .about-text .networks {
+    padding: 20px;
+}
+
+#about .about-text .networks a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#about .about-text .networks a:hover {
+    text-shadow: 2px 2px 10px var(--text-secondary-color);
 }
 
 @media (max-width: 1080px) {
