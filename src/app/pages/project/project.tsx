@@ -14,7 +14,6 @@ export default function Project() {
             <img
               src="https://th.bing.com/th/id/OIP.1qTMKwdpiGAbQPoIDnr04wHaEK?rs=1&pid=ImgDetMain"
               alt="projeto x"
-              srcset=""
             />
             <p>Este projeteo foi criado para resolver poblema x</p>
           </section>
@@ -23,7 +22,6 @@ export default function Project() {
             <img
               src="https://th.bing.com/th/id/OIP.1qTMKwdpiGAbQPoIDnr04wHaEK?rs=1&pid=ImgDetMain"
               alt="projeto x"
-              srcset=""
             />
             <p>Este projeteo foi criado para resolver poblema x</p>
           </section>
