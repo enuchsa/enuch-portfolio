@@ -13,9 +13,9 @@ export default function index() {
       <Navbar />
       <Home />
       <About />
-      <Experience />
+      {/* <Experience />
       <Education />
-      <Certificate />
+      <Certificate /> */}
       <Skill />
       <Project />
     </main>
