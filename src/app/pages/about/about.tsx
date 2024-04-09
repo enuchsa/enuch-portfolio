@@ -18,10 +18,10 @@ export default function About() {
             </p>
           </section>
           <section className="networks">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/enuchsa/" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/enuchsa" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-github"></i>
             </a>
           </section>
